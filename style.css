@@ -1,0 +1,60 @@
+*{
+    font-family: "Protest Strike", serif;
+}
+
+.bg-1{
+    background-color: #E5D9F2;
+}
+
+.bg-2{
+    background-color: #F5EFFF;
+}
+
+.bg-3{
+    background-color: #CDC1FF;
+}
+
+.bg-4{
+    background-color: #A594F9;
+}
+
+.machine{
+    box-shadow: 5px 0px 99px black;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.screen{
+    width: 550px;
+    height: 100px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.buttons{
+    margin-top: 15px;
+}
+
+.btn{
+    width: 90px !important;
+    margin: 5px;
+}
+
+.ekran{
+    /* padding-top: 40px !important; */
+    margin-left: 15px;
+}
+
+.imlec{
+    width: 3px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    animation: imlec_efekt 1s step-end infinite;
+}
+
+@keyframes imlec_efekt {
+    50% {
+        opacity: 0;
+    }
+}
