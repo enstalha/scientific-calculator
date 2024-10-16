@@ -81,7 +81,8 @@ function isLastCharacterDecimal() {
 }
 
 button1.addEventListener('click', () => {
-    ekranaEkle('1');   
+    ekranaEkle('1'); 
+    mathIslem('1');  
 })
 
 button2.addEventListener('click', () => {
@@ -118,6 +119,7 @@ button9.addEventListener('click', () => {
 
 button0.addEventListener('click', () => {
     ekranaEkle('0');   
+    mathIslem('0');  
 })
 
 del.addEventListener('click', () => {
@@ -180,4 +182,16 @@ open_parenthesis.addEventListener('click', () => {
 
 close_parenthesis.addEventListener('click', () => {
     oparatorEkle(')');
+})
+
+x_neg1.addEventListener('click', () => {
+    ekranaEkle('**-1');
+})
+
+y_x.addEventListener('click', () => {
+    ekranaEkle('**');
+})
+
+square_x.addEventListener('click', () => {
+    ekranaEkle('**2');
 })
